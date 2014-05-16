@@ -222,6 +222,7 @@ class BitmapData implements IBitmapDrawable {
 		}
 	
 		__sourceImageDataChanged = true;
+		__syncImageData ();
 		
 	}
 	
